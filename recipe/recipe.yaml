@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: types-Flask-Cors
-  version: 6.0.0.20250809
+  version: "6.0.0.20260402"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/types_flask_cors-${{ version }}.tar.gz
-  sha256: 24380a2b82548634c0931d50b9aafab214eea9f85dcc04f15ab1518752a7e6aa
+  sha256: 57350b504328df7ec13a12599e67939189cb644c5d0efec9af80ed03c592052c
 
 build:
   number: 0
